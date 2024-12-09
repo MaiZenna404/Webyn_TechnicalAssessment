@@ -10,7 +10,7 @@ J'ai ensuite créé un fichier script.js afin de séparer le code de modificatio
 
 J'ai aussi fait un dossier assets/images afin d'y ranger le logo de l'entreprise, toujours dans une optique de lisibilité et de meilleure maintenance des fichiers. 
 
-Par choix, je n'ai pas réalisé les bonus demandés afin de rentrer dans la durée d'environ 1h imposée. Néanmoins, je les réaliserai en tant que projet personnel bonus afin d'améliorer le rendu de ce test. 
+Par choix, je n'ai pas réalisé tous les bonus demandés afin de rentrer dans la durée d'environ 1h imposée. Néanmoins, je les réaliserai en tant que projet personnel bonus afin d'améliorer le rendu de ce test. 
 
 - Bonus #1: Swap second (Centered screenshot) and third blocs (Responsive left-aligned hero with image)
   
