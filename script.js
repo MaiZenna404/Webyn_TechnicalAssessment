@@ -1,24 +1,43 @@
 document.addEventListener("DOMContentLoaded", function() {
     /* Logo */
     /* Chercher le premier élement [index Node 0] ayant la classe "d-block mx-auto mb4"*/
-    var logo = document.getElementsByClassName("d-block mx-auto mb4")[0];
+    var logo = document.getElementsByTagName("img")[0];
     if (logo){
       logo.src = "./assets/images/logo-webyn.webp";
+      logo.alt = "Webyn Logo";
+      logo.style.width = "15%";
+      logo.style.height = "auto";
     }
     /* title */
-    document.getElementsByClassName(
-      "display-5 fw-bold text-body-emphasis"
-    ).innerText = "Generate more revenue with your website !";
+    var title = document.getElementsByTagName("h1")[1]
+    if (logo){
+        title.innerHTML = "Generate <span id = 'highlightWords'>more revenues </span>with your website!";
+        var highlightWords = document.getElementById("highlightWords");
+        highlightWords.style.color = "#0ea5e9";
+      
+    };
     /* Description Text */
-    document.getElementsByClassName("lead mb-4").innerText =
-      "97% of your traffic does not convert. Webyn automatically generates improvements on your website to maximize your conversions. 100% No-Code";
+    var description = document.getElementsByTagName("p")[0]
+    if (description){
+        description.innerHTML = "97% of your traffic does not convert. <br> Webyn automatically generates improvements on your website to maximize your conversions. <br> 100% No-Code"
+        
+        
+    }
     /* Left Button */
-    document.getElementsByClassName("btn btn-primary btn-lg px-4 gap-3").innerText = "Book a Demo";
-    document.getElementsByClassName("btn btn-primary btn-lg px-4 gap-3").style.borderradius = "50px";
-    document.getElementsByClassName("btn btn-primary btn-lg px-4 gap-3").style.backgroundColor = "#0ea5e9";
-    document.getElementsByClassName("btn btn-primary btn-lg px-4 gap-3").style.color = "#ffffff";
+
+    var leftButton = document.getElementsByTagName("button")[4];
+    if (leftButton){
+        leftButton.innerText = "Book a Demo";
+        leftButton.style.borderRadius = "50px";
+        leftButton.style.backgroundColor = "#0ea5e9";
+        leftButton.style.color = "#ffffff";
+    }
     /* Right Button */
-    document.getElementsByClassName("btn btn-outline-secondary btn-lg px-4").innerText = "Analyse my website →";
-    document.getElementsByClassName("btn btn-outline-secondary btn-lg px-4").style.borderradius = "50px";
+    var rightButton = document.getElementsByTagName("button")[5];
+    if (rightButton){
+        rightButton.innerText = "Analyse my website →";
+        rightButton.style.borderRadius = "50px";
+
+    }
   
   });
