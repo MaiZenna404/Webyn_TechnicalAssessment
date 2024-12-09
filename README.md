@@ -13,7 +13,7 @@ J'ai aussi fait un dossier assets/images afin d'y ranger le logo de l'entreprise
 Par choix, je n'ai pas réalisé les bonus demandés afin de rentrer dans la durée d'environ 1h imposée. Néanmoins, je les réaliserai en tant que projet personnel bonus afin d'améliorer le rendu de ce test. 
 
 - Bonus #1: Swap second (Centered screenshot) and third blocs (Responsive left-aligned hero with image)
-- 
+  
 ~~- Bonus #2: Add an email input field above the existing buttons (”Book a demo” & “Analyse my website”). When the buttons are clicked, display an alert that shows the entered email address.~~
 
 - Bonus #3: Create a popup that opens after 10 seconds with a “Subscribe to newsletter” form.
