@@ -52,10 +52,10 @@ document.addEventListener("DOMContentLoaded", function () {
         controlEmailInput();
       });
 
-      /*Form Email Input Field */
+      /* Bonus 1 : Form Email Input Field */
 
       var form = document.getElementsByTagName("form")[0];
-      if (form){
+      if (form) {
         form.style.display = "flex";
         form.style.justifyContent = "center";
       }
@@ -63,11 +63,11 @@ document.addEventListener("DOMContentLoaded", function () {
       var emailInput = document.getElementsByTagName("input")[0];
 
       if (emailInput) {
-          emailInput.style.borderRadius = "50px";
-          emailInput.style.padding = "10px";
-          emailInput.style.border = "1px solid #0ea5e9";
-          emailInput.style.width = "75%";
-        }
+        emailInput.style.borderRadius = "50px";
+        emailInput.style.padding = "10px";
+        emailInput.style.border = "1px solid #0ea5e9";
+        emailInput.style.width = "75%";
+      }
 
       function controlEmailInput() {
         let email = document.forms["emailForm"]["emailInput"].value;
@@ -75,11 +75,33 @@ document.addEventListener("DOMContentLoaded", function () {
           alert("Please enter your email to contact us !");
         } else {
           alert(
-            "Thank you for contacting us, we will get back to you shortly at " + email
+            "Thank you for contacting us, we will get back to you shortly at " +
+              email
           );
         }
+      }
 
-        
+      /* Bonus 2 : Swap the Centered Screenshoot & Left-aligned Hero Cards */
+      document.addEventListener("DOMContentLoaded", function () {
+        swapCards();
+      });
+
+      function swapCards() {
+        var centeredScreenShootCard = document.getElementsByClassName(
+          "text-center border-bottom"
+        )[0];
+        var leftAlignedCard = document.getElementsByClassName(
+          "container col-xxl-8 px-4 py-5"
+        )[0];
+
+        if (centeredScreenShootCard && leftAlignedCard) {
+          var card = centeredScreenShootCard.innerHTML;
+          var card2 = leftAlignedCard.innerHTML;
+
+          centeredScreenShootCard.innerHTML = card2;
+
+          leftAlignedCard.innerHTML = card;
+        }
       }
     }
   }
