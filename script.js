@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (logo) {
     logo.src = "./assets/images/logo-webyn.webp";
     logo.alt = "Webyn Logo";
-    logo.style.width = "15%";
+    logo.style.width = "20%";
     logo.style.height = "auto";
   }
 
@@ -82,6 +82,8 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       /* Bonus 2 : Swap the Centered Screenshoot & Left-aligned Hero Cards */
+
+      /* Besoin d'un DOMContentLoaded, au risque d'avoir un CSS qui casse lors du swap*/
       document.addEventListener("DOMContentLoaded", function () {
         swapCards();
       });
