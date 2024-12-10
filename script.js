@@ -1,4 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
+
+    /* Add templates' images */
+    var imgDocs = document.getElementsByTagName("img")[1];
+    var imgThemes = document.getElementsByTagName("img")[2];
+    if (imgThemes && imgDocs) {
+      imgThemes.src = "./assets/images/bootstrap-themes.png";
+      imgThemes.alt = "Bootstrap Themes";
+      imgDocs.src = "./assets/images/bootstrap-docs.png";
+      imgDocs.alt = "Bootstrap Docs";
+    }
+  
+
   /* Logo */
 
   /* Chercher le premier élement [index Node 0] ayant la classe "d-block mx-auto mb4"*/
