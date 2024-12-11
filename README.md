@@ -14,6 +14,6 @@ Par choix de respecter la limite de temps de 1h, je n'ai pas pu réaliser les bo
 
 ~~- Bonus #1: Swap second (Centered screenshot) and third blocs (Responsive left-aligned hero with image)~~ (Fait le 10/12/2024)
   
-~~- Bonus #2: Add an email input field above the existing buttons (”Book a demo” & “Analyse my website”). When the buttons are clicked, display an alert that shows the entered email address.~~ (Fait peu après le premier rendu le 09/12/2024)
+~~- Bonus #2: Add an email input field above the existing buttons (”Book a demo” & “Analyse my website”). When the buttons are clicked, display an alert that shows the entered email address.~~ (Fait peu après le premier rendu le 09/12/2024 mais à refaire)
 
 - Bonus #3: Create a popup that opens after 10 seconds with a “Subscribe to newsletter” form.
